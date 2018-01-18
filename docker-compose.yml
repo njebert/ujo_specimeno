@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  ujo_specimeno:
+    image: ujo_specimeno
+    build:
+      context: .
+      dockerfile: ujo_specimeno/Dockerfile
